@@ -1,0 +1,16 @@
+{
+    "ref_mesh"  : "/Documents/data/gltf63/scene_fairy.obj",
+    "mtl_override" : "/Documents/data/gltf63/scene_fairy.mtl",
+    "random_textures": true,
+    "iter": 1000,
+    "save_interval": 100,
+    "texture_res": [ 1000, 1000 ],
+    "train_res": [1000, 1000],
+    "batch": 4,
+    "learning_rate": [0.03, 0.003],
+    "envmap": "data/irrmaps/aerodynamics_workshop_2k.hdr",
+    "display" :  [{"bsdf" : "kd"}, {"bsdf" : "ks"}, {"bsdf" : "normal"}],
+    "background": "black",
+    "validate" : false,
+    "out_dir": "gltf_fairy"
+}
