@@ -1,10 +1,10 @@
 {
-    "ref_mesh": "data/complex_brdf/24567/",
+    "ref_mesh": "data/Real_data07182022",
     "random_textures": true,
     "iter": 5000,
     "save_interval": 100,
     "texture_res": [ 2048, 2048 ],
-    "train_res": [256, 256],
+    "train_res": [3008, 4112],
     "batch": 8,
     "learning_rate": [0.03, 0.01],
     "ks_min" : [0, 0.1, 0.0],
@@ -14,5 +14,5 @@
     "display": [{"latlong" : true}, {"bsdf" : "kd"}, {"bsdf" : "ks"}, {"bsdf" : "normal"}],
     "layers" : 4,
     "background" : "black",
-    "out_dir": "complex_brdf_24567"
+    "out_dir": "Real_data07182022"
 }
