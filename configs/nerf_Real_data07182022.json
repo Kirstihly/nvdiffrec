@@ -4,7 +4,7 @@
     "iter": 5000,
     "save_interval": 100,
     "texture_res": [ 2048, 2048 ],
-    "train_res": [3008, 4112],
+    "train_res": [1504, 2056],
     "batch": 8,
     "learning_rate": [0.03, 0.01],
     "ks_min" : [0, 0.1, 0.0],
